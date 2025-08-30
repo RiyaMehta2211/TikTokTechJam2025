@@ -86,5 +86,34 @@ Without the right context, even the most powerful LLMs can **overlook regulatory
 
 - **Language:** Python **3.10+**
 
-- **LLM:** [Ollama](https://ollama.ai/)  
+- **LLM:** [Ollama](https://ollama.ai/) 
   Local LLM inference to reduce API costs and enhance data privacy.
+
+## Setup
+
+1.  **Download the repository** locally using Git:
+    ```bash
+    git clone https://github.com/RiyaMehta2211/TikTokTechJam2025
+    cd TikTokTechJam2025
+    ```
+
+2.  **Open the Jupyter Notebook:** Locate and open `TikTok TechJam 2025 submission.ipynb` in your Jupyter environment.
+
+3.  **Install Dependencies:** All required Python libraries are handled within the notebook using `pip` commands in the initial cells.
+
+## Running the Notebook
+
+1.  **Open the Notebook:** Launch your Jupyter environment and open the `.ipynb` file.
+
+2.  **Run Cells Sequentially:** Execute each cell in order from top to bottom. The notebook will:
+    -   Import necessary libraries
+    -   Define the `ChunkModel` and other classes
+    -   Initialize the embedding model and ChromaDB client
+    -   Parse the `compliance_knowledge_base.json` file and populate the database
+
+3.  **Execute a Query:** Run the final cell containing the `main()` function, which serves as the program entry point. Provide input when prompted to see results.
+
+## Expected Output
+
+After execution, you should see output similar to:
+<img width="2880" height="452" alt="image" src="https://github.com/user-attachments/assets/cf53f992-3582-4b7c-97fb-b5e569e979dc" />
