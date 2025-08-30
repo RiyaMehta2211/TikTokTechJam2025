@@ -92,27 +92,43 @@ Without the right context, even the most powerful LLMs can **overlook regulatory
 
 ## Setup
 
-1.  **Download the repository** locally using Git:
+You can get started with ComplianceGuard in **two ways**:
+
+---
+
+### **Option 1: Local Jupyter Notebook**
+
+1. **Download the repository** locally using Git:
     ```bash
     git clone https://github.com/RiyaMehta2211/TikTokTechJam2025
     cd TikTokTechJam2025
     ```
 
-2.  **Open the Jupyter Notebook:** Locate and open `TikTok TechJam 2025 submission.ipynb` in your Jupyter environment.
+2. **Open the Jupyter Notebook:** Launch your Jupyter environment and open `TikTok TechJam 2025 submission.ipynb`.
 
-3.  **Install Dependencies:** All required Python libraries are handled within the notebook using `pip` commands in the initial cells.
+3. **Install Dependencies:** All required Python libraries are handled within the notebook using `pip` commands in the first few cells.
 
-## Running the Notebook
+4. **Run Cells Sequentially:** Execute each cell in order from top to bottom to:
+    - Import necessary libraries
+    - Define the `ChunkModel` and other classes
+    - Initialize the embedding model and ChromaDB client
+    - Parse the `compliance_knowledge_base.json` file and populate the database
 
-1.  **Open the Notebook:** Launch your Jupyter environment and open the `.ipynb` file.
+5. **Execute a Query:** Run the final cell containing the `main()` function to test the system.
 
-2.  **Run Cells Sequentially:** Execute each cell in order from top to bottom. The notebook will:
-    -   Import necessary libraries
-    -   Define the `ChunkModel` and other classes
-    -   Initialize the embedding model and ChromaDB client
-    -   Parse the `compliance_knowledge_base.json` file and populate the database
+---
 
-3.  **Execute a Query:** Run the final cell containing the `main()` function, which serves as the program entry point. Provide input when prompted to see results.
+### **Option 2: Google Colab**
+
+1. Click this link to open the notebook in Colab:  
+   [Open in Google Colab](https://colab.research.google.com/drive/10f9sF0w0gpOVuNCqyQF7nfmOHgHqwFCc?usp=sharing)
+
+2. **Install Dependencies:** Run the first few cells to install required Python libraries.
+
+3. **Run the Notebook:** Execute cells sequentially to initialize the system, populate the database, and test queries as described in Option 1.
+
+---
+
 
 ## Expected Output
 
