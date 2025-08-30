@@ -69,7 +69,8 @@ Without the right context, even the most powerful LLMs can **overlook regulatory
 - **[langchain](https://www.langchain.com/)** – Framework for building RAG pipelines  
 - **[numpy](https://numpy.org/)** – Core numerical computing library  
 - **[transformers](https://huggingface.co/transformers/)** – HuggingFace library for pretrained models  
-- **[torch](https://pytorch.org/)** – Deep learning framework powering model inference  
+- **[torch](https://pytorch.org/)** – Deep learning framework powering model inference
+- **[peft](https://huggingface.co/docs/peft/en/index)** - Parameter-Efficient Fine-Tuning (for LoRA)
 
 **Note:** To use `transformers` and `sentence-transformers`, you will need a [Hugging Face account](https://huggingface.co/join) and a personal access token.
 
@@ -86,8 +87,8 @@ Without the right context, even the most powerful LLMs can **overlook regulatory
 
 - **Language:** Python **3.10+**
 
-- **LLM:** [Ollama](https://ollama.ai/) 
-  Local LLM inference to reduce API costs and enhance data privacy.
+- **LLM:** [Meta LLaMA **3.2 1B Instruct**](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct)
+  HuggingFace model used for compliance reasoning and response generation.
 
 ## Setup
 
